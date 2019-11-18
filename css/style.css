@@ -1,12 +1,8 @@
 
-* {
-  box-sizing:border-box;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-.content {
-
-
-}
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -16,14 +12,13 @@ body {
 .container {
   margin:0  auto;
   width: 30%;
-  background-color:
 
 }
 
 nav {
   margin: 0 auto;
   padding: 15px 0 15px 15px;
-  position: absolute;
+  position:fixed;
   width: 30%;
   background-color: black;
 }
@@ -31,9 +26,8 @@ nav {
 .arrow {
   align-content: center;
   padding: 0% 20% 0% 90%;
-
-
 }
+
 h1 {
   font-weight: bold;
   line-height: 1.5em;
@@ -42,7 +36,7 @@ h1 {
 
 }
 
-h3{
+h3 {
 padding-left: 8%;
 }
 
@@ -58,4 +52,4 @@ padding-top: 15%;
 background-color: white;
 }
 
-.location:hover { background-color:#F1FFFA; } /* mouse over */
+.location:hover { background-color:lightgrey; } /* mouse over */
